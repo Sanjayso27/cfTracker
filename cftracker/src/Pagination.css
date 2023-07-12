@@ -1,0 +1,22 @@
+.pagination-container {
+  list-style-type: none;
+}
+
+.pagination-item {
+  color: black;
+  padding: 16px;
+  text-decoration: none;
+}
+
+.pagination-item:hover {
+  background-color: rgba(0, 0, 0, 0.04);
+  cursor: pointer;
+}
+
+.selected{
+  background-color: rgba(0, 0, 0, 0.08);
+}
+
+.disabled {
+  pointer-events: none;
+}
